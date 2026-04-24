@@ -156,8 +156,9 @@ g { font-family: Bold; }
 .skills { margin-top: 12px; display: grid; gap: 4px; grid-template-columns: repeat(4, 1fr); }
 .skills p { padding: 4px; font-family: Bold; text-align: center; font-size: 14px; }
 
-.foot { display: flex; justify-content: space-between; align-items: end; padding: 0 8px; }
+.foot { display: flex; justify-content: space-between; align-items: end; padding: 4px 8px; }
 .foot h6:nth-child(2) { text-align: end; }
+.foot h6:nth-child(2) br { display: none }
 .subttl { font-family: Times; font-size: 42px; }
 .real { font-size: 28px; }
 
@@ -314,5 +315,6 @@ g { font-family: Bold; }
 	.task p { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
 	.tasklist { overflow: hidden; }
 	.foot h6:nth-child(1) { max-width: 150px; }
+	.foot h6:nth-child(2) br { display: block; }
 	.desktop { flex-direction: row; }
 }
