@@ -298,6 +298,7 @@ g { font-family: Bold; }
 @media (min-width: 768px) and (max-width: 1023px) {
 	.contactinfo h2 { font-size: 48px; }
 	.descmobile { display: block; } .desc { display: none; }
+	.desktop { flex-direction: row; }
 }
 
 @media (max-width: 768px) {
